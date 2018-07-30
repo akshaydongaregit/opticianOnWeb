@@ -1,0 +1,65 @@
+.form
+{
+  width:98%;
+  font-size: 80%;
+  padding-top: 0;
+  margin-top: 0.5%;
+  box-sizing: border-box;
+}
+
+div.section-label
+{
+  width: 98.0%;
+  padding: 1% 0% 0% 4%;
+}
+
+.input.input-text
+{
+    width: 25%;
+}
+.input+label
+{
+  padding-left: 3%;
+}
+
+.input.input-text[name*="name"]
+{
+  width: 35%;
+}
+.input.input-text[name*="mobileno"]
+{
+  width: 20%;
+}
+
+.input.input-text[name="txtcreated"]
+{
+ 
+  width: 10%;
+}
+.input.input-text[name*="price"]
+{
+  width: 15%;
+}
+.input.input-text[name*="total"]
+{
+  width: 15%;
+}
+.input.input-text[name*="advance"]
+{
+  width: 15%;
+}
+.input.input-text[name*="remaning"]
+{
+  width: 15%;
+}
+
+.btn.btn-purple
+{
+  width: 015%;
+  letter-spacing: 1px;
+  margin-top: 1%;
+}
+.btn + .btn
+{
+  margin-left:2% ;
+}

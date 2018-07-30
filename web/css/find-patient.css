@@ -1,0 +1,132 @@
+.form
+{
+  width:98%;
+  font-size: 80%;
+  padding-top: 0;
+  margin-top: 0.5%;
+  box-sizing: border-box;
+}
+
+div.section-label
+{
+  width: 98.0%;
+  padding: 1% 0% 0% 4%;
+}
+.input.input-text[name*="name"]
+{
+  width: 35%;
+}
+.input.input-text
+{
+  width: 30%;
+}
+.table .input.input-text
+{
+  width: 60%;
+}
+ 
+.table
+{
+  min-width: 600px;
+  max-width: 1600px;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+table{
+  /*border:2px solid #404;*/
+  box-sizing: border-box;
+  width:098% ;
+  margin-top:2%;
+  font-size:95%;
+}
+td.table-head {
+  border: 2px solid #404;
+  line-height: 1.5;
+}
+tr
+{
+  /*border-bottom: 2px solid #404;*/
+  box-sizing: border-box;
+}
+td.pt-id
+{
+  width: 015%;
+}
+td.pt-name
+{
+  width: 025%;
+}
+td.arr-date
+{
+  width: 010%;
+}
+
+td.check-date
+{
+  width: 010%;
+}
+td.con-no
+{
+  width: 012%;
+}
+td.user
+{
+  width: 020%;
+}
+td.action-delete
+{
+  width:20px;
+}
+td.action-delete
+{
+  width:20px;
+}
+
+.btn.btn-purple
+{
+  width: 015%;
+  letter-spacing: 1px;
+  margin-top: 1%;
+}
+
+.btn + .btn
+{
+  margin-left:2% ;
+}
+
+table tr:nth-child(odd)
+{
+  background: #202;
+  color:#fff;
+  font-size:0100%;
+}
+
+table tr .table-head
+{
+  background: #202;
+  color: #fff;
+  font-size: 110%;
+}
+table tr:hover
+{
+  background: #006;
+  color:#fff;
+}
+table .img
+{
+  box-sizing: border-box;
+}
+table .img.img-view
+{
+    width:20px;
+}
+table .img.img-delete
+{
+    width:20px;
+}
+
+.table td .img:hover
+{
+    background: #aa00aa;
+    border: 2px solid #fff;
+}

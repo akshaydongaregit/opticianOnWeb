@@ -1,0 +1,140 @@
+.template
+{
+  width: 60%;
+  border:4px solid #505;
+  background: #202;
+  margin-left: 10%;
+}
+.template .form
+{
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 0 0;
+}
+.form
+{
+  width:98%;
+  margin: 1% 1% 1% 1%;
+  font-size: 80%;
+  padding-top: 1;
+  margin-top: 1%;
+  box-sizing: border-box;
+}
+.template .form
+{
+  opacity: 1.0;
+}
+.table
+{
+ margin-top: 1%;
+  padding-top: 1%;
+}
+div.section-label
+{
+  width: 98.0%;
+ 
+  padding: 1% 0% 0% 4%;
+}
+.input.input-text[name*="name"]
+{
+  width: 35%;
+}
+.input.input-text
+{
+  width: 30%;
+}
+.input.input-text[name="txtinstrc"]
+{
+  width: 70%;
+}
+.table .input.input-text
+{
+  width: 60%;
+}
+td{
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  border: 1px soli;
+}
+table tr:nth-child(1){
+  border-top: 2px solid #404;
+}
+table tr:nth-child(1) td:nth-child(2){
+  border-right: 2px solid #404;
+}
+table{
+  border:2px solid #404;
+}
+table td:nth-child(3){
+  border-right: 2px solid #404;
+}
+table td:nth-child(1){
+  border-right: 2px solid #404;
+}
+.btn.btn-purple
+{
+  width: 015%;
+  letter-spacing: 1px;
+  margin-top: 1%;
+}
+.btn + .btn
+{
+  margin-left:2% ;
+}
+.btn.pre-btn
+{
+  margin-left: 2%;
+  background: #a0a;
+  color: #fff;
+  border:2px solid #404;
+  opacity: 0.8;
+}
+.btn.pre-btn:hover
+{
+  transform: translateX(-2px) translateY(-2px);
+  background: transparent;
+  transition:all 0.2s ease-in-out;
+  color: #404;
+}
+.template .footer .logo
+{
+	padding:1% 1% 1% 1% ;
+	font: bold 150% "Sans serif" ,Helvetica , Arial ,"Segoe UI" ;
+	letter-spacing: 3px;
+  color:#fff;
+  font-size:120%;
+}
+.template .footer .logo.tip
+{
+	padding: 4%;
+	font: bold 90%  "Lucida Console", "Times New Roman";
+	letter-spacing: 6px;
+}
+.template>.footer .info
+{
+  font:normal 85% Arial;
+  color: #eee;
+  line-height: 30%;
+}
+.template label[class*="address"]
+{
+  padding-left: 50%;
+}
+.template label[class*="contact"]
+{
+  padding-left: 40%;
+}
+.template label .tip.info[class*="tip info"]
+{
+  font-size: 80%;
+  letter-spacing: 2px;
+}
+.radio
+{
+    margin-left: 5%;
+}
+.input.input-text[name="txtpatientid"]
+{
+    width:15%;
+}

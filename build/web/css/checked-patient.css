@@ -1,0 +1,113 @@
+.form
+{
+  width:98%;
+  line-height: 120%;
+  font-size: 80%;
+  padding-top: 0;
+  margin-top: 0.5%;
+  box-sizing: border-box;
+}
+
+/*
+label.section-label[name="patient-info"]
+{
+  margin:-010% 0% 0% 0%;
+}
+*/
+div.section-label
+{
+  width: 98.0%;
+  padding: 1% 0% 0% 4%;
+}
+
+.input.input-text
+{
+  margin-left:1%;
+  width: 30%;
+}
+.table .input.input-text
+{
+  width: 60%;
+}
+td{
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  border: 1px soli;
+}
+table tr:nth-child(1){
+  border-top: 2px solid #404;
+}
+table tr:nth-child(1) td:nth-child(2){
+  border-right: 2px solid #404;
+}
+table{
+  border:2px solid #404;
+}
+table td:nth-child(3){
+  border-right: 2px solid #404;
+}
+table td:nth-child(1){
+  border-right: 2px solid #404;
+}
+.btn.btn-purple
+{
+  width: 015%;
+  letter-spacing: 1px;
+  margin-top: 1%;
+}
+.btn + .btn
+{
+  margin-left:2% ;
+}
+
+.input.input-text[name*="date"]{
+  width:15%
+}
+br+ label + input + label{
+  margin-left: 1%;
+}
+br+ label + input + label+input+label{
+  margin-left: 1%;
+}
+.input[name="txtpatientid"]
+{
+  width:15%;
+}
+.input[name="txtpatientid"]+label
+{
+  margin-left: 4%;
+}
+
+.input[name="txtpatientname"]
+{
+  width:40%;
+}
+.input[name="txtdob"]
+{
+  width:15%;
+}
+.input[name="age"]
+{
+  width:7%;
+}
+
+.input[name="txtaddress"]
+{
+  width:60%;
+}
+.input[name="txtcontactno"]
+{
+  width:20%;
+}
+.input[name="txte_mail"]
+{
+  width:35%;
+}
+.input[name="txtopticianname"]
+{
+  width:25%;
+}
+.form *{
+  margin-top: 1%;
+}

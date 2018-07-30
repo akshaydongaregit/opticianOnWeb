@@ -1,0 +1,138 @@
+.form
+{
+  width:98%;
+ /* margin: 1% 1% 1% 1%;*/
+  font-size: 80%;
+  padding-top: 0;
+  margin-top: 0.5%;
+  box-sizing: border-box;
+}
+
+div.section-label
+{
+  width: 98.0%;
+  padding: 1% 0% 0% 4%;
+}
+
+.input.input-text
+{
+  width: 20%;
+}
+.input[name="txtpatientname"]
+{
+  width:30%
+}
+.input[name="txtcreatedby"]
+{
+  width:30%
+}
+
+.table
+{
+  min-width: 600px;
+  max-width: 1600px;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+table{
+  /*border:2px solid #404;*/
+  box-sizing: border-box;
+  width:098% ;
+  margin-top:2%;
+}
+td.table-head {
+  border: 2px solid #404;
+  line-height: 1.5;
+}
+tr
+{
+  border-bottom: 2px solid #404;
+}
+td.inv-no
+{
+  width: 012%;
+}
+td.pt-name
+{
+  width: 025%;
+}
+td.creat-date
+{
+  width: 010%;
+}
+td.del-date
+{
+  width: 10%;
+}
+td.con-no
+{
+  width: 010%;
+}
+td.price
+{
+  width: 10%;
+}
+td.user
+{
+  width: 15%;
+}
+
+.btn.btn-purple
+{
+  width: 015%;
+  letter-spacing: 1px;
+  margin-top: 1%;
+}
+
+.btn + .btn
+{
+  margin-left:2% ;
+}
+
+table tr:nth-child(odd)
+{
+  background: #202;
+  color:#fff;
+  font-size:0100%;
+}
+
+table tr .table-head
+{
+  background: #202;
+  color: #fff;
+  font-size: 110%;
+}
+table tr:hover
+{
+  background: #006;
+  color:#fff;
+}
+
+
+table .img.img-delete
+{
+    width:2%;
+}
+table td
+{
+  box-sizing: border-box;
+}
+
+table .img
+{
+  box-sizing: border-box;
+}
+table .img.img-view
+{
+    width:20px;
+}
+table .img.img-delete
+{
+    width:20px;
+}
+
+.table td .img:hover
+{
+    background: #aa00aa;
+    border: 2px solid #fff;
+}

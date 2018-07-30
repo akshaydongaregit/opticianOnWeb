@@ -1,0 +1,71 @@
+body{
+  background: url("img/checkup3.jpg") no-repeat;
+  background-size: cover;
+}
+
+.panel
+{
+  box-sizing: border-box;
+  background: #202;
+  color: #fff;
+  letter-spacing:2px;
+  font-size: 15px;
+  padding: 0%;
+  padding-top:3%;
+  overflow: hidden;
+}
+.panel:hover
+{
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  /*text-shadow: 1px 2px 2px rgba(0,0,0.6,1) ,  3px 3px 2px rgba(0,0,0.9,1); */
+  transition: all .2s ease-in-out;
+}
+.panel
+{
+  width:18%;
+  height:400px;
+  background: rgba(00,010,100,0.2);
+  opacity: 1;
+  border: 02px solid rgba(00,00,50,0.99);
+  
+}
+img.panel-image
+{
+  width: 90%;
+  margin:5% 5%;
+}
+.panel .panel-footer
+{
+  box-sizing: border-box;
+  margin: 0% 0% 0% 0%;
+  width: 100%;
+  height:300px;
+  background:#002;
+}
+.panel .panel-footer
+{
+  padding: 10%;
+  padding-left: 20%;
+}
+.panel:hover .panel-footer
+{
+  transform: translateY(-100px);
+  transition: all 0.6s ;
+}
+.panel.new-patient
+{
+  margin-left: 8%;
+}
+.panel.view-patient
+{
+    
+}
+.panel.checkup
+{
+  
+}
+.panel.find-patient
+{
+  
+}

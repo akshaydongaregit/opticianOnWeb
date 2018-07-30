@@ -1,0 +1,29 @@
+body{
+    font-size:85%; 
+}
+.form
+{
+    margin-top: 1%;
+    padding-top: 1%;
+}
+.input.input-text
+{
+    width:60%;
+    margin-top:1% ;
+}
+label
+{
+    margin-top: 1%;
+}
+/*
+label[id="lbl-male"]{
+    margin-left: 4%;
+}
+label[id="lbl-female"]{
+    margin-left: 8%;
+}*/
+
+.radio
+{
+  margin-left: 8%;
+}

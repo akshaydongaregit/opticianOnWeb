@@ -1,0 +1,47 @@
+body { 
+    background: url("img/checkup3.jpg") no-repeat;
+		background-size: cover;
+}
+.form
+{
+  /*background: rgba(0,0,0,0);*/
+  margin-top: 2%;
+  font-size: 90%;
+  width:80%;
+}
+
+.input.input-text
+{
+  width: 60%;
+}
+
+.btn.btn-purple
+{
+  margin-left:8%;
+  margin-top: 2%;
+}
+
+input.input.input-text[name="txtdob"]{
+  width:30%;
+}
+input.input.input-text[name="txtage"]{
+  width:7%;
+}
+input.input.input-text[name="address"]{
+  width:30%;
+}
+input.input.input-text[name="txtmobileno"]{
+  width:30%;
+}
+input.input.input-text[name="txtemail"]{
+  width:30%;
+}
+input.input.input-text[name="txtname"]{
+  width:55%;
+}
+input.input.input-text[name="txtid"]{
+  width:20%;
+}
+.radio{
+    margin-left: 8%;
+}

@@ -1,0 +1,107 @@
+body { 
+    background: url("img/checkup3.jpg") no-repeat;
+    background-size: cover;
+    background: rgba(0,0,0,1);
+}
+.form
+{
+   opacity: 1;
+  background: rgba(21,21,90,.0);
+  margin-left: 2%;
+    margin-top: 1%;
+  padding: 1%;
+  font-size: 90%;
+  width:96%;
+ color: #FFF;
+  border:2px solid rgba(180,10,0,.8);
+  box-sizing: border-box;
+    
+}
+
+.input.input-text
+{
+  width: 60%;
+  color:#FFF;
+}
+.input
+{
+    height:40px;
+}
+
+.input.input-date
+{
+  margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 1%;
+    font-size: 95%;
+    border: none;
+    border:2px solid #F00;
+    width: 12%;
+    height: 40px;
+    background:rgba(00,0,0,1);
+    color: #FFF;
+}
+
+.btn
+{
+  margin-left:8%;
+  margin-top: 0%;
+  background:#000;
+  border: 3px solid #F00;
+  width: 100px;
+  height: 40px;
+  color: #FFF;
+}
+
+.btn:hover
+{
+  background: #F00;
+  color: #000;
+  border-color: #F00;
+}
+.title
+{
+    color:#FFF;
+    Font:bold 100% "Tahoma";
+    letter-spacing: 4px;
+    position: relative;
+    left: 40%;
+}
+.header
+{
+    border: none;
+    background: #F00;
+    padding: 1%;
+    margin: 1%;
+    width: 96%;
+    margin-left: 2%;
+    border: 1px solid rgba(2,0,60,1);
+    box-sizing: border-box;    
+}
+.radio{
+    margin-left: 8%;
+}
+.nav-pane
+{
+    
+}
+.nav-pane.img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.btn[text="Generate"]
+{
+    float: right;
+    width: 10%;
+}
+
+.input.input-text
+{
+    width: 20%;
+    border-bottom: 2px solid #F00;
+}
+.input.input-text:hover
+{
+    border:none;
+}

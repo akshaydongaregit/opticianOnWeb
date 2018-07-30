@@ -1,0 +1,312 @@
+body { 
+    background: url("img/checkup3.jpg") no-repeat;
+		background-size: cover;
+	  font-size: 20px;
+}
+/*		Header Section Styling	*/
+.header
+{
+	margin :-2% 0% -00% -1%;
+	padding: 0px 0% 0% 2%;
+	width:99.6%;
+	height:100%;
+	background: rgba(.4,0,.4,0.3);
+	border-bottom: 5px #202 solid;
+	color: #fff;
+}
+.header >h1
+{
+	padding-left: 5%;
+	margin-bottom: 0;
+	font-family:"Segoe UI", "Tamoha" , "Arial";
+}
+.header .title
+{
+	letter-spacing:1px ;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	color:#fff;
+}
+.header .title-tip
+{
+	margin-top: 1px;
+	margin-bottom: 4px;
+	padding-left:140px ;
+	font : normal 100%/1.0 Helvetica , Sans-Serif  ;
+	letter-spacing: 2px;
+	color : #ccc;
+}
+/*_______________________________________________________________*/
+
+/*		Menu  Section Styling	*/
+
+.menu{
+	width: 101.5%;
+	height:60px;
+	margin: -1.5% 0% 0% -1%;
+	padding: 0% 0% 0% 0%;
+	font-family: "Segoe UI" , Tamoha ,Arial;
+	color: #A0A;
+	background: #fff;
+	opacity: .8;
+}
+.menu a
+{
+	text-decoration: none;
+	color: #909;
+}
+.menu .navbar
+{
+	margin: 0% 0% 0% 0%;
+	padding: 0% 0% 0% 0%;
+}
+
+.menu .navbar ul{
+	list-style: none;
+	line-height: 60px;
+}
+.menu .navbar ul li{
+	float: left;
+	width: 100px;
+	height: 56px;
+	margin-top: 0px;
+	text-align: center;
+	margin: 2px;
+}
+
+.menu .navbar ul li:hover{
+	opacity: 1.0;
+	box-shadow:2px 2px 2px 2px rgba(1,1,1,0.5);
+	transform: translateY(-2px);
+	color: #A0A;
+	border:none;
+	border-bottom: 4px solid #A0A;
+	font-size:105%;
+	transition: all 0.2s ease-in-out;
+	box-sizing: border-box;
+}
+/*________________________________________________________________*/
+
+/*  Form Section Styling  */
+.form
+{
+
+	font-family: "Segoe UI",Tamoha , Arial;
+	width: 60%;
+	background: #fff;
+	opacity: .8;
+	margin:0 auto;
+	margin-top: 0%;
+	padding:1%;
+	line-height: 1;
+  
+}
+
+.input.input-text
+{
+	margin: 0% 0% 0% 0%;
+	padding: 0% 0% 0% 0%;
+	font-size: 95%;
+	border: none;
+	border-bottom:2px solid #A0A;
+	width: 100%;
+	height: 30px;
+	background: transparent;
+	color: #333;
+}
+.input.input-text:hover
+{
+	box-sizing: border-box;
+	border-top:2px solid #aa00aa;
+	border-left: 10px solid #aa00aa;
+	border-right: 10px solid #aa00aa;
+}
+.btn.btn-purple
+{
+	margin-top: 35px;
+        background: none;
+	background-image: none;
+	background-position: 0px 0px;
+	border: 3px solid #aa00aa;
+	color: #aa00aa;
+	width: 120px;
+	height: 40px;
+	font-size: 87%;
+	transition: 0.2s ease-out;
+}
+.btn.btn-purple:hover
+{
+	opacity: 1;
+	box-shadow:0px 2px 4px 4px rgba(1,1,1,0.4); 
+	background-color: #aa00aa;
+	color: #FFF;
+}
+select
+{
+    -moz-appearance:none;
+    -webkit-appearance:none; 
+    font : normal 90% "Segoe UI";
+    width: 10%;
+    border: 0px solid #0000;
+    border-bottom: 2px solid #808;
+}
+
+/*_________________________________________________________________*/
+
+/*  Body Section Styling  */
+a{
+	text-decoration: none;
+	color:#fff;
+}
+aa:link:visited ,aa:link:active 
+{
+	text-decoration: none;
+	border:none;
+}
+.body
+{
+	font: normal 100%/1.3 "Segoe UI" , Tamoha , Helvetica , Arial;
+	box-sizing: border-box;
+}
+.panel
+{
+	margin: 02% 02% 02% 02%;
+	padding: 02% 02% 02% 02%;
+	float: left;
+	background:#fff;
+	opacity: .9;
+	border: 3px solid #101;
+}
+.panel:hover
+{
+	transform: translateY(-5px) translateX(-5px);
+}
+div.section-label
+{
+	background: #202;
+	margin: 02% 0% 0% -01%;
+	padding: 01% 01% 0% 01%;
+	width: 100%;
+	height: 30px;
+	border-bottom: 3px solid #606;
+	border-top: 3px solid #606;
+	opacity: 0.8;
+}
+label.section-label
+{
+	/*background: #999; */
+	font-size: 115%;
+	color:#fff ;
+}
+table
+{
+	table-layout: fixed;
+	border-collapse: collapse;
+	margin:1% 1%;
+	line-height: 1.5;
+}
+.table-row{
+	border-bottom : 2px solid #404;
+}
+tr
+{
+	text-align: center;
+}
+.table-head
+{
+	text-align: center;
+}
+
+.radio
+{
+	box-sizing:border-box;
+	-moz-appearance: none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+	width: 20px;
+	height: 20px;
+	border:2px solid #000;
+	border-radius: 50%;
+}
+.radio:checked
+{
+	box-shadow: 0px 0px 3px #000; 
+	border: 10px solid #000;
+}
+.radio.radio-purple
+{
+	border: 2px solid #505;
+}
+.radio.radio-purple:checked
+{
+	border:10px solid #505;
+}
+
+
+.template
+{
+	box-sizing:border-box;
+	border: 3px solid #404;
+	margin: 2% 2%;
+	padding: 0 0 0 0;
+	background: #fff;
+	opacity: 1.0;
+}
+.template .header
+{
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  margin: 0% 0% 0% 0%;
+}
+.template .title
+{
+	padding:1% 1% 1% 1% ;
+	font: bold 150% "Sans serif" ,Helvetica , Arial ,"Segoe UI" ;
+	letter-spacing: 3px;
+}
+.template .title.tip
+{
+	padding: 4%;
+	font: bold 90%  "Lucida Console", "Times New Roman";
+	letter-spacing: 6px;
+}
+/*_________________________________________________________________*/
+/*user icon style sheet*/
+.img.img-round
+{
+	border-radius:50%; 
+        border: 2px #006 outset;
+}
+
+.user_panel{
+       
+        opacity: .99;
+        position: fixed;
+        top: 0px;
+        left: 90%;
+	width: 75px;
+	height: 75px;
+        overflow: hidden;
+        
+}
+
+.user-img
+{
+    width:70%;
+    height:70%;
+    margin-left: 10%;
+    margin-bottom:-10%;
+    padding-bottom: 0px;
+}
+
+#user-name
+{
+    margin-top: -20px;
+    margin-left: 10%;
+    padding-top: 0px;
+    font: normal medium "calibri","Segoe UI","Agency FB","calibri" ;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fff;
+}
