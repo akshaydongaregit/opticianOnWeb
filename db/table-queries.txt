@@ -1,0 +1,106 @@
+
+
+
+create table patients ( 
+	id int primary key auto_increment not null,
+	name char(30),
+    dob date,
+    gender char(7),
+	address varchar(40),
+	contact_no bigint(11),
+	e_mail varchar(30),
+	user_name varchar(30)
+);
+
+create table invoices
+(
+	id int primary key auto_increment not null,
+    name char(30),
+    contact_no bigint(11),
+    frame_type varchar(30),
+    frame_price float(8,2),
+    lence_type varchar(30),
+    lence_price char(30),
+    price float(10,2),
+    advance float(10,2),
+    username char(30)
+);
+
+/******************************		Added dates 		*******************/
+
+create table patients ( 
+	id int primary key auto_increment not null,
+	name char(30),
+    dob date,
+    gender char(7),
+	address varchar(40),
+	contact_no bigint(11),
+	e_mail varchar(30),
+    arrival varchar(20),
+	user_name varchar(30)
+);
+
+create table invoices
+(
+	id int primary key auto_increment not null,
+    name char(30),
+    contact_no bigint(11),
+    frame_type varchar(30),
+    frame_price float(8,2),
+    lens_type varchar(30),
+    lens_price float(8,2),
+    solution_price float(6,2),
+    price float(10,2),
+    advance float(10,2),
+    created varchar(20),
+    deliverd date,
+    username char(30)
+);
+
+
+create table checkup_info
+(
+	id int primary key auto_increment not null,  
+    patient_id varchar(20),
+    optician char(30),
+    contact_no bigint(11),
+    RE_D_SPH float(5,2),
+    RE_D_CYL float(5,2),
+    RE_N_SPH float(5,2),
+    RE_N_CYL float(5,2),
+    LE_D_AXIS float(5,2),
+    LE_D_VA float(5,2),
+    LE_N_AXIS float(5,2),
+    LE_N_VA float(5,2),
+    checkup_date dates
+);
+
+
+
+select patient_name,arrival,checkup_date,patients.contact_no,optician from patients,checkup_info where patients.id=6 && checkup_info.patient_id=patients.id;
+
+
+
+create table checkup_info
+(
+	id int primary key auto_increment not null,  
+    patient_name char(30),
+    patient_id varchar(20),
+    dob date,
+    gender char(6),
+    address varchar(50),
+    contact_no bigint(11),
+    e_mail varchar(30),
+    arrival_date date,
+    RE_D_SPH float(5,2),
+    RE_D_CYL float(5,2),
+    RE_N_SPH float(5,2),
+    RE_N_CYL float(5,2),
+    LE_D_AXIS float(5,2),
+    LE_D_VA float(5,2),
+    LE_N_AXIS float(5,2),
+    LE_N_VA float(5,2),
+    checkup_date date,
+    optician char(30)
+);
+
